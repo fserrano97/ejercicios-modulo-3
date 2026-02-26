@@ -1,0 +1,15 @@
+.btn:hover{
+    background-color: rgb(235, 235, 41);
+    
+}
+
+.btn-ver-mas:hover{
+    background-color: rgb(235, 235, 41);
+    transition: 0.3s;
+    transform: scale(1.1) ;
+}
+
+.seccion-game{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
