@@ -17,7 +17,7 @@ async function obtenerDatos() {
 
         // Verificar si la respuesta es correcta
         if (!response.ok) {
-            // Si la respuesta no es correcta, mostrar un mensaje de error en html:
+            // Si la respuesta no es correcta, mostrar un mensaje de error en el párrafo:
             p.innerHTML = "Error al obtener los datos";
             return;
         }
