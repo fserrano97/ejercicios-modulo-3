@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 630px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+#lista {
+  margin-bottom: 20px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#boton {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#boton:hover {
+  background-color: #0056b3;
+}
+
+#mensaje {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text-post {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.btn-eliminar,
+.btn-editar {
+  margin-right: 3px;
+  padding: 5px;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-eliminar {
+  background-color: red;
+}
+
+.btn-editar {
+  background-color: #28a745;
+}
+
+.btn-editar:hover {
+  background-color: green;
+}
+
+.btn-eliminar:hover {
+  background-color: pink;
+}
